@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxqnf3JTfkO9RRU8JE0Bs71kQPGkP3fM-6w&s">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Sals Jee site</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/Sals_LOGO.png"alt="logo" height="100%" width="100%"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				
+			
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Empowering Minds, Shaping Futures - Sals Education</p>
+				<h5>
+					JEE (Joint Entrance Examination) is an Indian engineering entrance assessment for admission to various technical undergraduate programs 
+                    in prestigious institutions like IITs, NITs, and IIITs, known for its competitive nature and rigorous preparation.
+				</h5>
+				
+			</div>
+			<div class="svg-image">
+				<img src="images/sals_image_1.png" alt="svg" height="490" width="850">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Popular course</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/jee.html"><img src="images/courses/book.png">JEE Preparation</a></div>
+		
+		</div></center>
+		
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGdjIBJnpelovEuhYx5qW0GoQT4wMagq8jQ&s">
+				</div>
+				<div class="side-text">
+					<h2>What you think about us ?</h2>
+					<p>SALS, the Group Founded in 2016, SALS Education (SALS Educational Academy Private Limited) has been a beacon of ambition for individuals aspiring to prestigious Government Officer positions,
+                        particularly as Gazetted Officers. We have revolutionized the landscape of next-generation education through both online and offline modes at an affordable cost<br> 
+                        <br>SALS Education offers world-class coaching in various departments: <br>
+                        Department of Civil Service Examination: Special Guidance Programs for IAS, IPS, IFS, along with comprehensive coaching for UPSC, TNPSC, SSC, RRB, TET and many more.</p>
+				
+				</div>
+		</div>
+	</div>
+
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Service</p></center>
+		</div>
+		<a href=""><div class="s-card"><img src="images/JEE_canva_logo.png"><p class="JEE_WORD"><b>J E E</b></p></div></a>
+		<!-- <a href=""><div class="s-card"><img src="images/icon/brainbooster.png"><p>GATE</p></div></a> -->
+			</div>
+
+<!--JEE-->
+    <div class="JEE">
+		<div class="diffSection" id="Jee_Section"></div>
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: black;">JEE</p></center>
+		<p><b>What is JEE?</b><br>
+			The Joint Entrance Examination (JEE) is an engineering entrance assessment conducted for admission to various engineering colleges in India. This highly competitive exam is essential for students aspiring to pursue undergraduate engineering programs at prestigious institutions like the Indian Institutes of Technology (IITs), National Institutes of Technology (NITs), and Indian Institutes of Information Technology (IIITs). 
+			JEE is divided into two stages: 
+			JEE Mains 
+			JEE Advanced, where each serving a distinct purpose in the admission process.
+			
+			</p>
+	</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- Sliding Information -->
+	<!-- <marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Knowledge is the one thing that you can carry with you always; it is the treasure that never diminishes no matter how much you share it”</div></marquee> -->
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<!-- <img src="data:image/jpeg;base64,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" style="width: 300px;"> -->
+				<img src="images/Sals_LOGO_2_Dark_theme.png" alt="Sasl_logo" height="100%" width="100%">
+                <!-- <div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br> -->
+				
+				<br><p><img src="images/icon/location.png"> Chennai<br></p><br>
+				<p><img src="images/icon/phone.png"> 12345678900<br><img src="images/icon/mail.png">&nbsp; salseducation@gmail.com</p>
+			</div>
+			
+		</div>
+	</footer>
+
+</body>
+</html>
